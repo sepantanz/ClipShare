@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare", "ClipShare\ClipShare.csproj", "{2AFE756E-0E57-4256-8343-E4024DAD9E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.Core", "ClipShare.Core\ClipShare.Core.csproj", "{DACD4B3C-BA83-4AFF-8FE1-F6DE15C15D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.DataAccess", "ClipShare.DataAccess\ClipShare.DataAccess.csproj", "{0F045EBE-87DF-4638-80E8-9C9119AF473D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{2AFE756E-0E57-4256-8343-E4024DAD9E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AFE756E-0E57-4256-8343-E4024DAD9E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AFE756E-0E57-4256-8343-E4024DAD9E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACD4B3C-BA83-4AFF-8FE1-F6DE15C15D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACD4B3C-BA83-4AFF-8FE1-F6DE15C15D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACD4B3C-BA83-4AFF-8FE1-F6DE15C15D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACD4B3C-BA83-4AFF-8FE1-F6DE15C15D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A15AFACF-0BB3-45FF-9735-9948A9BF37A1}
 	EndGlobalSection
 EndGlobal

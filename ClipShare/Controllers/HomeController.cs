@@ -1,6 +1,7 @@
 using System.Diagnostics;
-using ClipShare.Models;
+using ClipShare.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace ClipShare.Controllers
 {
