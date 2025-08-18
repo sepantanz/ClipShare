@@ -1,0 +1,49 @@
+﻿@model ClipShare.ViewModels.Account.Register_vm
+
+<div class="d-flex justify-content-center">
+    <div class="col-lg-5">
+        <main class="form-signin">
+            <form method="post">
+                <div class="text-center my-4">
+                    <h1 class="h3 font-weight-normal">
+                        Signup today to watch free <span class="text-danger">Clips</span>
+                    </h1>
+                </div>
+
+                <div class="form-floating mt-5 mb-3">
+                    <input class="form-control" placeholder="Name (Username)" asp-for="Name" />
+                    <label asp-for="Name"></label>
+                    <span asp-validation-for="Name" class="invalid-feedback"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" placeholder="Email" asp-for="Email" />
+                    <label asp-for="Email"></label>
+                    <span asp-validation-for="Email" class="invalid-feedback"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" placeholder="Password" type="password" asp-for="Password" />
+                    <label asp-for="Password"></label>
+                    <span asp-validation-for="Password" class="invalid-feedback"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" placeholder="Conform password" type="password" asp-for="ConfirmPassword" />
+                    <label asp-for="Password"></label>
+                    <span asp-validation-for="ConfirmPassword" class="invalid-feedback"></span>
+                </div>
+
+                <div class="d-grid mt-4 px-1">
+                    <button class="btn btn-lg btn-warning" type="submit">
+                        Register
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

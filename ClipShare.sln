@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.Core", "ClipShare
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.DataAccess", "ClipShare.DataAccess\ClipShare.DataAccess.csproj", "{0F045EBE-87DF-4638-80E8-9C9119AF473D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipShare.Utility", "ClipShare.Utility\ClipShare.Utility.csproj", "{BE19D00A-BDF2-40B6-8758-8830AA63A0EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F045EBE-87DF-4638-80E8-9C9119AF473D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE19D00A-BDF2-40B6-8758-8830AA63A0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE19D00A-BDF2-40B6-8758-8830AA63A0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE19D00A-BDF2-40B6-8758-8830AA63A0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE19D00A-BDF2-40B6-8758-8830AA63A0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
